@@ -1,0 +1,51 @@
+Program Version,EnergyPlus, Version 26.1.0-6f2e40d102, YMD=2026.07.26 22:50,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=CHICAGO_IL_USA TMY2-94846
+   **   ~~~   ** ..Weather File Location=Chennai-Madras Tamil Nadu IND ISHRAE WMO#=432790
+   **   ~~~   ** ..due to location differences, Latitude difference=[28.78] degrees, Longitude difference=[167.93] degrees.
+   **   ~~~   ** ..Time Zone difference=[11.5] hour(s), Elevation difference=[91.58] percent, [174.00] meters.
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "SPACE1-1 VAV REHEAT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.30000
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.52215
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "SPACE2-1 VAV REHEAT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.30000
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.23933
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "SPACE3-1 VAV REHEAT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.30000
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.23579
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "SPACE4-1 VAV REHEAT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.30000
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.37899
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeHVACSingleDuct: Potential issue with equipment sizing for AirTerminal:SingleDuct:VAV:Reheat = "SPACE5-1 VAV REHEAT".
+   **   ~~~   ** User-Specified Minimum Cooling Air Flow Fraction of 0.30000
+   **   ~~~   ** differs from Design Size Minimum Cooling Air Flow Fraction of 0.68672
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ************* Simulation Error Summary *************
+   ** Warning ** The following Report Variables were requested but not generated -- check.rdd file
+   **   ~~~   ** Either the IDF did not contain these elements, the variable name is misspelled,
+   **   ~~~   ** or the requested variable is an advanced output which requires Output : Diagnostics, DisplayAdvancedReportVariables;
+   ************* Key=*, VarName=COOLING COIL ELECTRICITY ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=HEATING COIL ELECTRICITY ENERGY, Frequency=Hourly
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 1 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 1 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  8.10sec

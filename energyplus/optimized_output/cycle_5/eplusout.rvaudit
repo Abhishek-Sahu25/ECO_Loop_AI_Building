@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:D:\EcoLoopBuildingAI\energyplus\modified_models\cycle5_225050.rvi
+ input file:D:\EcoLoopBuildingAI\energyplus\optimized_output\cycle_5\eplusout.eso
+ output file:D:\EcoLoopBuildingAI\energyplus\optimized_output\cycle_5\eplusout.csv
+ getting all vars from:D:\EcoLoopBuildingAI\energyplus\optimized_output\cycle_5\eplusout.eso
+  number variables requested for output=         248
+ ReadVars Run Time=00hr 00min  4.08sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:D:\EcoLoopBuildingAI\energyplus\modified_models\cycle5_225050.mvi
+ input file:D:\EcoLoopBuildingAI\energyplus\optimized_output\cycle_5\eplusout.mtr
+ output file:D:\EcoLoopBuildingAI\energyplus\optimized_output\cycle_5\eplusmtr.csv
+ getting all vars from:D:\EcoLoopBuildingAI\energyplus\optimized_output\cycle_5\eplusout.mtr
+  number variables requested for output=          11
+ ReadVars Run Time=00hr 00min  0.28sec
+ ReadVarsESO program completed successfully.

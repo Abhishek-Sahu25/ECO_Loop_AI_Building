@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:D:\EcoLoopBuildingAI\energyplus\models\5ZoneAirCooled_AirBoundaries.rvi
+ input file:D:\EcoLoopBuildingAI\energyplus\baseline_output\eplusout.eso
+ output file:D:\EcoLoopBuildingAI\energyplus\baseline_output\eplusout.csv
+ getting all vars from:D:\EcoLoopBuildingAI\energyplus\baseline_output\eplusout.eso
+  number variables requested for output=         248
+ ReadVars Run Time=00hr 00min  3.44sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:D:\EcoLoopBuildingAI\energyplus\models\5ZoneAirCooled_AirBoundaries.mvi
+ input file:D:\EcoLoopBuildingAI\energyplus\baseline_output\eplusout.mtr
+ output file:D:\EcoLoopBuildingAI\energyplus\baseline_output\eplusmtr.csv
+ getting all vars from:D:\EcoLoopBuildingAI\energyplus\baseline_output\eplusout.mtr
+  number variables requested for output=          11
+ ReadVars Run Time=00hr 00min  0.17sec
+ ReadVarsESO program completed successfully.

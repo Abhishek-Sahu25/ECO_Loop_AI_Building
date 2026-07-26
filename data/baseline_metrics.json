@@ -1,0 +1,112 @@
+{
+  "total_energy_kwh": 7999.09,
+  "cooling_energy_kwh": 4190.22,
+  "heating_energy_kwh": 582.042,
+  "hvac_electricity_kwh": 404.961,
+  "zone_temperatures": {
+    "PLENUM-1": {
+      "mean": 25.06,
+      "min": 20.7,
+      "max": 32.61
+    },
+    "SPACE1-1": {
+      "mean": 23.07,
+      "min": 20.31,
+      "max": 26.79
+    },
+    "SPACE2-1": {
+      "mean": 23.43,
+      "min": 20.44,
+      "max": 29.34
+    },
+    "SPACE3-1": {
+      "mean": 23.3,
+      "min": 20.4,
+      "max": 29.07
+    },
+    "SPACE4-1": {
+      "mean": 23.06,
+      "min": 20.36,
+      "max": 27.42
+    },
+    "SPACE5-1": {
+      "mean": 22.94,
+      "min": 20.48,
+      "max": 25.92
+    }
+  },
+  "outdoor_air_temp": {
+    "mean": 27.25,
+    "min": 14.8,
+    "max": 37.06
+  },
+  "comfort_violations": 1589,
+  "comfort_timesteps_considered": 7440,
+  "comfort_violation_pct": 21.36,
+  "comfort_violation_by_zone": {
+    "SPACE1-1": {
+      "violations": 292,
+      "considered_timesteps": 1488,
+      "violation_pct": 19.62,
+      "occupancy_filtered": false
+    },
+    "SPACE2-1": {
+      "violations": 346,
+      "considered_timesteps": 1488,
+      "violation_pct": 23.25,
+      "occupancy_filtered": false
+    },
+    "SPACE3-1": {
+      "violations": 317,
+      "considered_timesteps": 1488,
+      "violation_pct": 21.3,
+      "occupancy_filtered": false
+    },
+    "SPACE4-1": {
+      "violations": 302,
+      "considered_timesteps": 1488,
+      "violation_pct": 20.3,
+      "occupancy_filtered": false
+    },
+    "SPACE5-1": {
+      "violations": 332,
+      "considered_timesteps": 1488,
+      "violation_pct": 22.31,
+      "occupancy_filtered": false
+    }
+  },
+  "comfort_occupancy_filtered": false,
+  "raw_columns_found": {
+    "electricity": [
+      "Electricity:Facility [J](Hourly)"
+    ],
+    "cooling": [
+      "PLENUM-1:Zone Air System Sensible Cooling Energy [J](Hourly)",
+      "SPACE1-1:Zone Air System Sensible Cooling Energy [J](Hourly)",
+      "SPACE2-1:Zone Air System Sensible Cooling Energy [J](Hourly)",
+      "SPACE3-1:Zone Air System Sensible Cooling Energy [J](Hourly)",
+      "SPACE4-1:Zone Air System Sensible Cooling Energy [J](Hourly)",
+      "SPACE5-1:Zone Air System Sensible Cooling Energy [J](Hourly)"
+    ],
+    "heating": [
+      "PLENUM-1:Zone Air System Sensible Heating Energy [J](Hourly)",
+      "SPACE1-1:Zone Air System Sensible Heating Energy [J](Hourly)",
+      "SPACE2-1:Zone Air System Sensible Heating Energy [J](Hourly)",
+      "SPACE3-1:Zone Air System Sensible Heating Energy [J](Hourly)",
+      "SPACE4-1:Zone Air System Sensible Heating Energy [J](Hourly)",
+      "SPACE5-1:Zone Air System Sensible Heating Energy [J](Hourly)"
+    ],
+    "zone_temperature": [
+      "PLENUM-1:Zone Mean Air Temperature [C](Hourly)",
+      "SPACE1-1:Zone Mean Air Temperature [C](Hourly)",
+      "SPACE2-1:Zone Mean Air Temperature [C](Hourly)",
+      "SPACE3-1:Zone Mean Air Temperature [C](Hourly)",
+      "SPACE4-1:Zone Mean Air Temperature [C](Hourly)",
+      "SPACE5-1:Zone Mean Air Temperature [C](Hourly)"
+    ],
+    "outdoor_air": [
+      "Environment:Site Outdoor Air Drybulb Temperature [C](Hourly)"
+    ],
+    "occupancy": []
+  }
+}
